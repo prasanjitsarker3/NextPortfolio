@@ -10,7 +10,6 @@ const About = () => {
     <h1>Loading...</h1>;
   }
   const profileData = data?.data;
-  console.log("Profile", profileData);
   return (
     <div
       id="about"
